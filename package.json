@@ -1,0 +1,35 @@
+{
+  "name": "taller2_aca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XavierMoran/Taller2_ACA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XavierMoran/Taller2_ACA/issues"
+  },
+  "homepage": "https://github.com/XavierMoran/Taller2_ACA#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "commitizen": "^4.3.1",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji-conventional": "^1.2.1",
+    "husky": "^9.1.7"
+  },
+    "config": {
+      "commitizen": {
+        "path": "./node_modules/cz-emoji-conventional",
+        "useGitmojis": true
+      }
+  }
+}
